@@ -1,0 +1,41 @@
+.professional{
+    background-color:rgb(237, 236, 235) ;
+    width: 100%;
+}
+.professional>div{
+    width: 80%;
+    margin: auto;
+}
+
+#professional tbody td{
+    padding:0.2rem;
+}
+
+.iconsContainer>i{
+    font-size: 4rem;
+    margin: 1rem;   
+    transition: all 1s;
+}
+.iconsContainer>i:hover{
+    transform: scale(1.1) rotate(3deg);
+}
+
+@media screen and (max-width:500px) {
+.professional>div{
+width: 80%;
+}
+.iconsContainer{
+    flex-wrap: wrap;
+    justify-content: center !important;
+    align-items: center;
+}
+.iconsContainer >i{
+font-size: 3rem;
+}
+}
+
+svg path , svg{
+width: 60px;
+height: 50px;
+margin-bottom: 1rem;
+}

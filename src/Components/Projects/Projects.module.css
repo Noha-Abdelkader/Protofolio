@@ -1,0 +1,68 @@
+.projects button{
+    padding: 0.5rem 1.2rem;
+    margin: 0.5rem;
+    border-radius: 50px;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    color: #000;
+    background-color: transparent;
+transition: all 0.7s;
+
+}
+
+.projects{
+    background-color: rgb(231, 236, 233);
+
+}
+.projects .container >div{
+    margin-bottom: 2rem;
+}
+.projects button:hover{
+    background-color: var(--greenColor);
+    border-color: var(--whiteColor);
+    color: var(--whiteColor);
+}
+
+.info_card{
+    background-color: var(--bufferColor);
+box-shadow: -5px 5px 10px rgba(68, 52, 52, 0.221) ;
+animation-name: floating;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+    0%{transform: translate(0px,0px)}
+    50%{transform: translate(0px,5px)}
+    100%{transform: translate(0px,0px);}
+    
+}
+
+
+.info_card h5{
+    color:var(--greenColor)
+}
+.info_card a{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    color: white;
+    font-weight: 700;
+    background-color: var(--greenColor);
+    padding: .3rem;
+    border-radius: 5px;
+}
+.info_card p{
+    margin-bottom: 0.5rem;
+}
+.info_card >div:first-child img{
+    box-shadow: -8px 8px 10px rgba(0, 0, 0, 0.402);
+    border-radius: 5px;
+}
+.note{
+    list-style-position: outside;
+    padding-inline-start:0.5rem;
+}
+.note>li{
+    padding:0;
+}

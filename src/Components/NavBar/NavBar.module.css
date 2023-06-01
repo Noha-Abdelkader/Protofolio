@@ -1,0 +1,46 @@
+.bg {
+    background-color: var(--grayColor);
+}
+
+.navbar_react {
+    z-index: 100;
+}
+.navLink_react{
+    text-transform: uppercase;
+    padding-bottom: 0;
+    transition: all 1s ;
+    font-weight: 800;
+    text-align: center;
+}
+.navLink_react:hover{
+    color: var(--greenColor)!important;
+}
+
+.navBrand_react {
+    position: relative;
+}
+
+.navBrand_react::before {
+    content: '';
+    background-color: var(--greenColor);
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: -8%;
+    transform: translateY(-50%);
+
+}
+
+@media screen and (max-width:500px){
+    .navBrand_react{
+     font-size: 1.2rem !important;
+     padding-left: 0.5rem;
+    }  
+    .navBrand_react small{
+     font-size: 0.9rem !important;
+    }
+} 
+
+

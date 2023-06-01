@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --greenColor: #62dfc2;
+  --whiteColor: #fff;
+  --bufferColor: rgb(244, 236, 230);
+
+  --grayColor: rgb(243, 243, 243);
+
+}
+
+::selection {
+  color: var(--greenColor);
+  background-color:white;
+}
+
+body {
+  font-family: 'Nunito', Arial, Helvetica, sans-serif;
+
+}
+
+i {
+  cursor: pointer;
+  transition: all 0.7s;
+}
+
+i:hover {
+  color: var(--greenColor);
+  transform: rotate(5deg);
+}
+
+section header h4 {
+  position: relative;
+}
+
+section header h4::before {
+  content: '';
+  background-color: var(--greenColor);
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: -5%;
+  transform: translateY(-50%);
+}
+
+@media screen and (max-width:950px) {
+  section header h4::before {
+  left: -10%;
+  }
+  }
+
+/* =================================== */
+.CircularProgressbar{
+  width: 10% !important;
+}
+/* ========================== */
+.up{
+  animation-name: moving;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+
+}
+/* .down{
+  top:0;
+  bottom: 0;
+} */
+
+@keyframes moving {
+  from{top:100};
+  to{top:0};
+  
+}
+/* ------ navBar ------------ */
+.navbar-toggler{
+  border: none;
+}
+.navbar-toggler:focus{
+  box-shadow: none;
+  }
+.navbar-toggler:focus .navbar-toggler-icon {
+  background-image: url(https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-close-512.png);
+
+  transform: rotate(90deg);
+}
+
+.navbar-toggler-icon {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzfSNuUJ9UoVaoUvllte_07DmBRM9BmjczgQ&usqp=CAU) ;
+  transition: all 1s;
+}
+
+button.navbar-toggler.collapsed .navbar-toggler-icon{
+  /* background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2048px-Hamburger_icon.svg.png) ; */
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzfSNuUJ9UoVaoUvllte_07DmBRM9BmjczgQ&usqp=CAU) ;
+
+
+  transform: rotate(0deg);
+
+}
+
+
+
+
+
+
+
+/* 
+.navIcon{
+position: relative;
+background-color: #fff;
+  transition-property: background-color, transform;
+  transition-duration: 3000ms;
+
+&:before,
+  &:after {
+    content:'';
+    display:block;
+    width:30px;
+    height:5px;
+    position: absolute;
+    background: #fff;
+    transition-property: margin, transform;
+    transition-duration: 3000ms;
+    
+  }
+
+  &:before {
+    margin-top:-10px;
+  }
+
+  &:after {
+    margin-top:10px;
+  }
+}
+
+.navActive {
+  background: rgba(0,0,0,0.0);
+
+  &:before {
+    margin-top:0;
+    transform:rotate(45deg);
+  }
+
+  &:after {
+    margin-top:0;
+    transform:rotate(-45deg);
+  }
+}
+
+
+ */
+
+
+
+
+.nav__trigger {
+  display:block;
+  position:absolute;
+  width:30px;
+  height:25px;
+  right:10px;
+  top:10px;
+  z-index:200; 
+}
+
+.nav--active .nav__trigger {
+  opacity:0.5;
+}
+.nav__icon {
+  display:inline-block;
+  position: relative;
+  width:30px;
+  height:5px;
+  background-color: #fff;
+  transition-property: background-color, transform;
+  transition-duration: 3000ms;
+
+  &:before,
+  &:after {
+    content:'';
+    display:block;
+    width:30px;
+    height:5px;
+    position: absolute;
+    background: #fff;
+    transition-property: margin, transform;
+    transition-duration: 3000ms;
+    
+  }
+
+  &:before {
+    margin-top:-10px;
+  }
+
+  &:after {
+    margin-top:10px;
+  }
+}
+
+
+
+.nav--active .nav__icon {
+  background: rgba(0,0,0,0.0);
+
+  &:before {
+    margin-top:0;
+    transform:rotate(45deg);
+  }
+
+  &:after {
+    margin-top:0;
+    transform:rotate(-45deg);
+  }
+}
