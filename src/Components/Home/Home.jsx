@@ -5,8 +5,9 @@ import { ImGithub } from "react-icons/im";
 import { Fade ,   Slide, JackInTheBox } from "react-awesome-reveal";
 import { Link } from 'react-router-dom';
 import Skills from '../Skills/Skills';
-
-
+// import { BiLogoGmail } from "react-icons/bi";
+import { SiGmail } from "react-icons/si";
+import { AiFillLinkedin } from "react-icons/ai";
 
 export default function Home() {
   return <Fragment>
@@ -21,20 +22,25 @@ export default function Home() {
 <div className={` ${styles.card}  text-center p-4 px-md-1 px-lg-4`} >
                <div className='d-flex justify-content-center align-items-center'>
                <img src={profileImg} className="rounded-circle w-50 mx-auto mb-4  p-lg-0" alt="profile_picture"/>
-                <div>
-                <Fade  cascade damping={0.5} >
-                <h1 className="fw-bolder mb-4 ">Noha ELsayed</h1>
+                <div className={`${styles.personalInfo} p-2`}>
+                <Fade  cascade damping={0.5}>
+                {/* <h1 className="fw-bolder mb-4 ">Noha ELsayed</h1> */}
+                <h6>Faculty of Science</h6>
+                <h6>Alexandria,Egypt</h6>
                 </Fade>
                 
                 <JackInTheBox delay={500}>
-                <h2 className="text-uppercase mb-4 ">front-end developer</h2>
+                {/* <h2 className="text-uppercase mb-4 ">front-end developer</h2> */}
+                <h6>01277543072</h6>
 
                 </JackInTheBox>
                 </div>
                </div>
 
                 <div className={styles.cart_footer}>
-                <ImGithub className={styles.iconStyle}/>
+                <a href='https://github.com/Noha-Elsayed'><ImGithub className={`${styles.iconStyle} mb-0`}/></a>
+                <a href='mailto: nohaabdelkader188@gmail.com'><SiGmail  className={`${styles.iconStyle} mb-0`}/></a>
+               <a  href='https://www.linkedin.com/in/noha-elsayed-61b936bb/' ><AiFillLinkedin  className={`${styles.iconStyle} mb-0`}/></a>
                 </div>
 
               </div>
