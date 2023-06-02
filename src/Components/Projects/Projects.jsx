@@ -85,7 +85,7 @@ return <Fragment>
 
 <div className='col-sm-12 col-md-6 d-flex justify-content-center align-items-center'>
 <div>
-<a href='https://e-commerce-gmtbxh9jt-noha-elsayed.vercel.app/'  className='p-0'> <img src={commerceBg} alt='project img' className='w-100'/> </a>
+<a href='https://e-commerce-js-five.vercel.app/'  className='p-0'> <img src={commerceBg} alt='project img' className='w-100'/> </a>
 
 </div>
     </div>
@@ -99,7 +99,7 @@ return <Fragment>
     <p> user able to add & remove from cart</p>
     <p className='mb-3'>using HTML,CSS,JS,jQuery,Slick slider, Aos Library </p>
     </Fade>
-    <a className='text-decoration-none' href='https://e-commerce-gmtbxh9jt-noha-elsayed.vercel.app/'>Visit Project</a>
+    <a className='text-decoration-none' href='https://e-commerce-js-five.vercel.app/'>Visit Project</a>
 
   </div>
    </div>
