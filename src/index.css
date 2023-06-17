@@ -5,15 +5,54 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  transition:all 0.1s;
+  /* background-color:var(--whiteColor); */
 }
+
 
 :root {
   --greenColor: #62dfc2;
   --whiteColor: #fff;
   --bufferColor: rgb(244, 236, 230);
-
   --grayColor: rgb(243, 243, 243);
+  --fanitGrayColor:rgb(231, 236, 233);
+--blackColor:black;
+--swiper-scrollbar-size:10px;
+--swiper-scrollbar-bg-color: rgba(0, 0, 0, 0.1);
+--swiper-scrollbar-drag-bg-color: var(--greenColor);
+/* --swiper-scrollbar-bottom: -10%; */
+}
+.light{
+  --greenColor: #62dfc2;
+  --whiteColor: #fff;
+  --bufferColor: rgb(244, 236, 230);
+  --grayColor: rgb(243, 243, 243);
+  --fanitGrayColor:rgb(231, 236, 233);
+  --bs-body-color: #fff;
+background-color:white;
 
+}
+.dark{
+  --bufferColor: black;
+  --grayColor: black;
+  --fanitGrayColor: black;
+  --bs-body-color: white;
+  --bs-nav-link-color:white;
+  color:white;
+  --swiper-scrollbar-bg-color: rgba(255,255,255,0.5);
+--blackColor:white;
+background-color:black;
+
+}
+[data-bs-theme="dark"] {
+  --bs-body-color: #fff;
+  --bs-navbar-brand-color:white ;
+  --bs-navbar-color:white;
+  --bs-navbar-active-color : white; 
+  --bs-navbar-brand-hover-color:white ;
+  --swiper-scrollbar-bg-color: rgba(255,255,255,0.5);
+  background-color:black;
+color:white;
 }
 
 ::selection {
@@ -161,9 +200,6 @@ background-color: #fff;
 
  */
 
-
-
-
 .nav__trigger {
   display:block;
   position:absolute;
@@ -223,3 +259,14 @@ background-color: #fff;
     transform:rotate(-45deg);
   }
 }
+
+/* ------------swiper--- */
+/* .swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal{ */
+  /* .swiper-horizontal .swiper-scrollbar{ */
+    /* div.swiper-scrollbar.swiper-scrollbar-horizontal{ */
+      .swiper-scrollbar-horizontal{
+  height:10px !important;
+ }
+ div.swiper-scrollbar.swiper-scrollbar-horizontal > div{
+  background-color:var(--greenColor)!important;
+ }

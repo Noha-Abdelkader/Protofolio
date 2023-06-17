@@ -12,7 +12,9 @@ transition: all 0.7s;
 }
 
 .projects{
-    background-color: rgb(231, 236, 233);
+    background-color: var(--fanitGrayColor);
+    padding-top:6rem;
+    /* height:100vh; */
 
 }
 .projects .container >div{
@@ -26,11 +28,13 @@ transition: all 0.7s;
 
 .info_card{
     background-color: var(--bufferColor);
-box-shadow: -5px 5px 10px rgba(68, 52, 52, 0.221) ;
+/* box-shadow: -5px 5px 10px rgba(68, 52, 52, 0.221) ; */
 animation-name: floating;
 animation-duration: 2s;
 animation-iteration-count: infinite;
 animation-timing-function: ease-in-out;
+/* border:1px solid rgba(255,255,255,0.2);  */
+
 }
 @keyframes floating {
     0%{transform: translate(0px,0px)}
@@ -62,6 +66,7 @@ animation-timing-function: ease-in-out;
 .note{
     list-style-position: outside;
     padding-inline-start:0.5rem;
+    list-style:none;
 }
 .note>li{
     padding:0;

@@ -13,9 +13,9 @@ export default function Home() {
   return <Fragment>
       <section id="home">
       <div className="container-fluid px-0">
-        <div className="row "  >
+        <div className="row"  >
 
-          <div className="col-md-5 p-0" >
+          <div className={`${styles.homeLeft} col-md-5 p-0`} >
             <div className={`position-relative ${styles.card_img}`} >
 <Slide direction='up'> 
   

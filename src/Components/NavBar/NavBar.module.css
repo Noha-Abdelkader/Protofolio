@@ -1,9 +1,8 @@
-.bg {
-    background-color: var(--grayColor);
-}
 
 .navbar_react {
     z-index: 100;
+    background-color: var(--grayColor);
+
 }
 .navLink_react{
     text-transform: uppercase;
@@ -12,8 +11,11 @@
     font-weight: 800;
     text-align: center;
 }
-.navLink_react:hover{
+.navLink_react:hover {
     color: var(--greenColor)!important;
+}
+ .navbar-nav .nav-link.active{
+    color:var(greenColor) !important;
 }
 
 .navBrand_react {
@@ -42,5 +44,13 @@
      font-size: 0.9rem !important;
     }
 } 
+.navLink_svg >svg{
+    height:35px !important;
+    width:35px !important;
+    margin-bottom:0;
+}
 
-
+.navLink_svg {
+    transform:translate(-100%,25%);
+    transition: all 1s ;
+}

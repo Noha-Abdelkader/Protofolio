@@ -1,5 +1,5 @@
 .professional{
-    background-color:rgb(237, 236, 235) ;
+    background-color:var(--fanitGrayColor);
     width: 100%;
 }
 .professional>div{
