@@ -474,7 +474,7 @@ export default function Projects() {
    <div className=' col-12 col-md-6  p-3'>
    <div>
     
-    <h5 className="fw-bolder">Construction web page Template</h5>
+    <h5 className="fw-bolder">Convertor web page Template</h5>
     <Fade cascade damping={0.1} delay={500}>
     <p className='mb-3'>HTML,CSS,JQuery,Bootstrap</p>
     </Fade>
