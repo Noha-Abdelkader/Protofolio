@@ -38,9 +38,9 @@ export default function Home() {
                </div>
 
                 <div className={styles.cart_footer}>
-                <a href='https://github.com/Noha-Elsayed'><ImGithub className={`${styles.iconStyle} mb-0`}/></a>
+                <a href='https://github.com/Noha-Abdelkader'><ImGithub className={`${styles.iconStyle} mb-0`}/></a>
                 <a href='mailto: nohaabdelkader188@gmail.com'><SiGmail  className={`${styles.iconStyle} mb-0`}/></a>
-               <a  href='https://www.linkedin.com/in/noha-elsayed-61b936bb/' ><AiFillLinkedin  className={`${styles.iconStyle} mb-0`}/></a>
+               <a  href='https://www.linkedin.com/in/noha-abdelkader-61b936bb/' ><AiFillLinkedin  className={`${styles.iconStyle} mb-0`}/></a>
                 </div>
 
               </div>
