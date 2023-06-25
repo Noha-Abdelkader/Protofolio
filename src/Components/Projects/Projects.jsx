@@ -47,7 +47,7 @@ export default function Projects() {
         <swiper-container
           ref={swiperElRef}
           slides-per-view="1"
-          
+         
           // navigation="true"
           spaceBetween={40}
           scrollbar={true }
@@ -55,7 +55,7 @@ export default function Projects() {
           className="mySwiper "
         >
           {/* ---------- movie api react ----------------------------------- */}
-         <swiper-slide>
+         <swiper-slide >
          <div className={`${styles.info_card} py-3  rounded-3  mx-auto gy-3 gx-5  row md:flex-wrap  `}>
 
               <div className=" col-12 col-md-6  d-flex justify-content-center ">
@@ -99,7 +99,7 @@ export default function Projects() {
                           <span className="text-danger fw-bold">PS: </span>Iam
                           using fake api So Try bellow info for correct login
                         </p>
-                        <table>
+                        <table  className="swiper-no-swiping">
                           <thead>
                             <tr>
                               <th className="pe-2">username</th>
@@ -123,6 +123,7 @@ export default function Projects() {
                    <a target="_blank" rel="noreferrer"  
                     className="text-decoration-none"
                     href="https://movie-app-api-react.vercel.app/login"
+                    
                   >
                     Visit Project
                   </a>
