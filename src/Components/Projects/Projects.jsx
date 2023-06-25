@@ -292,7 +292,7 @@ export default function Projects() {
 <div>
 
  <a target="_blank" rel="noreferrer"   href='https://noha-elsayed.github.io/Protfolio-web-page/'  className='p-0'> <img src={proflioBg} alt='project img' className='w-100'/> </a>
-=======
+
 <a href='https://profile-web-page-ujeo.vercel.app/'  className='p-0'> <img src={proflioBg} alt='project img' className='w-100'/> </a>
 
 
@@ -308,7 +308,7 @@ export default function Projects() {
     </Fade>
 
      <a target="_blank" rel="noreferrer"   className='text-decoration-none' href='https://noha-elsayed.github.io/Protfolio-web-page/'>Visit Project</a>
-=======
+
     <a className='text-decoration-none' href='https://profile-web-page-ujeo.vercel.app/'>Visit Project</a>
 
 
@@ -326,7 +326,7 @@ export default function Projects() {
 <div>
 
  <a target="_blank" rel="noreferrer"   href='https://noha-elsayed.github.io/Crud-System-JS/'  className='p-0'> <img src={crudBg} alt='project img' className='w-100'/> </a>
-=======
+
 <a href='https://crud-system-js.vercel.app/'  className='p-0'> <img src={crudBg} alt='project img' className='w-100'/> </a>
 
 
@@ -343,7 +343,7 @@ export default function Projects() {
     </Fade>
 
      <a target="_blank" rel="noreferrer"   className='text-decoration-none' href=' https://noha-elsayed.github.io/Crud-System-JS/'>Visit Project</a>
-=======
+
     <a className='text-decoration-none' href='https://crud-system-js.vercel.app/'>Visit Project</a>
 
 
@@ -359,7 +359,7 @@ export default function Projects() {
 <div>
 
  <a target="_blank" rel="noreferrer"   href='https://noha-elsayed.github.io/Party-web-page-JS/'  className='p-0'> <img src={partyBg} alt='project img' className='w-100'/> </a>
-=======
+
 <a href='https://party-web-page-js.vercel.app/'  className='p-0'> <img src={partyBg} alt='project img' className='w-100'/> </a>
 
 
@@ -376,7 +376,7 @@ export default function Projects() {
     </Fade>
 
      <a target="_blank" rel="noreferrer"   className='text-decoration-none' href='https://noha-elsayed.github.io/Party-web-page-JS/'>Visit Project</a>
-=======
+
     <a className='text-decoration-none' href='https://party-web-page-js.vercel.app/'>Visit Project</a>
 
 
@@ -395,7 +395,7 @@ export default function Projects() {
 <div>
 
  <a target="_blank" rel="noreferrer"   href='https://noha-elsayed.github.io/Protfolio-web-page2/'  className='p-0'> <img src={simonBg} alt='project img' className='w-100'/> </a>
-=======
+
 <a href='https://protfolio-web-page2.vercel.app/'  className='p-0'> <img src={simonBg} alt='project img' className='w-100'/> </a>
 
 
@@ -411,7 +411,7 @@ export default function Projects() {
     </Fade>
 
      <a target="_blank" rel="noreferrer"   className='text-decoration-none' href='https://noha-elsayed.github.io/Protfolio-web-page2/'>Visit Project</a>
-=======
+
     <a className='text-decoration-none' href='https://protfolio-web-page2.vercel.app/'>Visit Project</a>
 
 
@@ -428,7 +428,7 @@ export default function Projects() {
 <div>
 
  <a target="_blank" rel="noreferrer"   href='https://noha-elsayed.github.io/Profile-WebPage/'  className='p-0'> <img src={fokirBg} alt='project img' className='w-100'/> </a>
-=======
+
 <a href='https://profile-web-page.vercel.app/'  className='p-0'> <img src={fokirBg} alt='project img' className='w-100'/> </a>
 
 
@@ -444,7 +444,7 @@ export default function Projects() {
     </Fade>
 
      <a target="_blank" rel="noreferrer"   className='text-decoration-none' href='https://noha-elsayed.github.io/Profile-WebPage/'>Visit Project</a>
-=======
+
     <a className='text-decoration-none' href='https://profile-web-page.vercel.app/'>Visit Project</a>
 
 
@@ -510,7 +510,7 @@ export default function Projects() {
 <div>
 
  <a target="_blank" rel="noreferrer"   href='https://noha-elsayed.github.io/Convertor-JS/'  className='p-0'> <img src={convertorBg} alt='project img' className='w-100'/> </a>
-=======
+
 <a href='https://convertor-js.vercel.app/'  className='p-0'> <img src={convertorBg} alt='project img' className='w-100'/> </a>
 
 
@@ -526,7 +526,7 @@ export default function Projects() {
     </Fade>
 
      <a target="_blank" rel="noreferrer"   className='text-decoration-none' href='https://noha-elsayed.github.io/Convertor-JS/'>Visit Project</a>
-=======
+
     <a className='text-decoration-none' href='https://convertor-js.vercel.app/'>Visit Project</a>
 
 
