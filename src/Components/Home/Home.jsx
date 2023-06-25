@@ -11,7 +11,7 @@ import { AiFillLinkedin } from "react-icons/ai";
 
 export default function Home() {
   return <Fragment>
-      <section id="home">
+      <section id="home" className='vh-100'>
       <div className="container-fluid px-0">
         <div className="row"  >
 
@@ -71,6 +71,7 @@ valuable contributions.
               </Fade>
               <div className="mb-3 d-flex justify-content-start align-items-center">
                <Link  to='/projects'> <button type="submit">projects</button></Link>
+               <a href='https://docs.google.com/document/d/11VnfdFTT7-sWi1LJwzTDApB3mRemejE37SCxO1QTq4E/edit?usp=sharing' target='_blank' rel='noreferrer' > <button type='button'  >CV</button></a> 
 
               </div>
             </div>

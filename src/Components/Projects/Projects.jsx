@@ -60,9 +60,10 @@ export default function Projects() {
 
               <div className=" col-12 col-md-6  d-flex justify-content-center ">
                 <div>
-                  <a
+                   <a target="_blank" rel="noreferrer"  
                     href="https://movie-app-api-react.vercel.app/login"
                     className="p-0"
+
                   >
                     
                     <img
@@ -119,7 +120,7 @@ export default function Projects() {
                       </div>
                     </ul>
                   </Fade>
-                  <a
+                   <a target="_blank" rel="noreferrer"  
                     className="text-decoration-none"
                     href="https://movie-app-api-react.vercel.app/login"
                   >
@@ -136,7 +137,7 @@ export default function Projects() {
               
               <div className=" col-12 col-md-6  d-flex justify-content-center ">
                 <div>
-                  <a
+                   <a target="_blank" rel="noreferrer"  
                     href="https://e-commerce-js-five.vercel.app/"
                     className="p-0"
                   >
@@ -159,10 +160,10 @@ export default function Projects() {
                       using HTML,CSS,JS,jQuery,Slick slider, Aos Library
                     </p>
                   </Fade>
-                  <a
+                   <a target="_blank" rel="noreferrer"  
                     className="text-decoration-none"
                     href="https://e-commerce-js-five.vercel.app/"
-                  >
+                   >
                     Visit Project
                   </a>
                 </div>
@@ -176,7 +177,7 @@ export default function Projects() {
            
               <div className=" col-12 col-md-6  d-flex justify-content-center">
                 <div>
-                  <a
+                   <a target="_blank" rel="noreferrer"  
                     href="https://weather-app-js-mu.vercel.app/"
                     className="p-0"
                   >
@@ -208,7 +209,7 @@ export default function Projects() {
                       Library,owl-carousel,slick slider
                     </p>
                   </Fade>
-                  <a
+                   <a target="_blank" rel="noreferrer"  
                     className="text-decoration-none"
                     href="https://weather-app-js-mu.vercel.app/"
                   >
@@ -225,7 +226,7 @@ export default function Projects() {
 
               <div className=" col-12 col-md-6  d-flex justify-content-center ">
                 <div>
-                  <a href="https://movie-api-js.vercel.app/" className="p-0">
+                   <a target="_blank" rel="noreferrer"   href="https://movie-api-js.vercel.app/" className="p-0">
                     <img
                       src={movieBg}
                       alt="project img"
@@ -246,7 +247,7 @@ export default function Projects() {
                       Finally iam using HTML,CSS,JS, Bootstrap,jQuery
                     </p>
                   </Fade>
-                  <a
+                   <a target="_blank" rel="noreferrer"  
                     className="text-decoration-none"
                     href="https://movie-api-js.vercel.app/"
                   >
@@ -263,7 +264,7 @@ export default function Projects() {
              <div className={`${styles.info_card} py-3  rounded-3  mx-auto gy-3 gx-5  row md:flex-wrap  `}>
 <div className=' col-12 col-md-6  d-flex justify-content-center '>
 <div>
-<a href='https://smart-login-wine.vercel.app/'  className='p-0'> <img src={smartLoginBg} alt='project img' className='w-100'/> </a>
+ <a target="_blank" rel="noreferrer"   href='https://smart-login-wine.vercel.app/'  className='p-0'> <img src={smartLoginBg} alt='project img' className='w-100'/> </a>
 
 </div>
     </div>
@@ -276,7 +277,7 @@ export default function Projects() {
     <p className='mb-3'>Check User input Validation & Check if email exist! if not Go to the home page </p>
     <p className='mb-3'>HTML,CSS,JS,Bootstrap</p>
     </Fade>
-    <a className='text-decoration-none' href='https://smart-login-wine.vercel.app/'>Visit Project</a>
+     <a target="_blank" rel="noreferrer"   className='text-decoration-none' href='https://smart-login-wine.vercel.app/'>Visit Project</a>
 
   </div>
    </div>
@@ -288,7 +289,7 @@ export default function Projects() {
                      <div className={`${styles.info_card} py-3  rounded-3  mx-auto gy-3 gx-5  row md:flex-wrap  `}>
 <div className=' col-12 col-md-6  d-flex justify-content-center'>
 <div>
-<a href='https://noha-elsayed.github.io/Protfolio-web-page/'  className='p-0'> <img src={proflioBg} alt='project img' className='w-100'/> </a>
+ <a target="_blank" rel="noreferrer"   href='https://noha-elsayed.github.io/Protfolio-web-page/'  className='p-0'> <img src={proflioBg} alt='project img' className='w-100'/> </a>
 
 </div>
     </div>
@@ -300,7 +301,7 @@ export default function Projects() {
     <Fade cascade damping={0.1} delay={500}>
     <p className='mb-3'>HTML,CSS,JS,Typed js,Aos library,jQuery,Bootstrap</p>
     </Fade>
-    <a className='text-decoration-none' href='https://noha-elsayed.github.io/Protfolio-web-page/'>Visit Project</a>
+     <a target="_blank" rel="noreferrer"   className='text-decoration-none' href='https://noha-elsayed.github.io/Protfolio-web-page/'>Visit Project</a>
 
   </div>
   </div>
@@ -314,7 +315,7 @@ export default function Projects() {
           <div className={`${styles.info_card} py-3  rounded-3  mx-auto gy-3 gx-5  row flex-wrap  `}>
 <div className=' col-12 col-md-6  d-flex justify-content-center'>
 <div>
-<a href='https://noha-elsayed.github.io/Crud-System-JS/'  className='p-0'> <img src={crudBg} alt='project img' className='w-100'/> </a>
+ <a target="_blank" rel="noreferrer"   href='https://noha-elsayed.github.io/Crud-System-JS/'  className='p-0'> <img src={crudBg} alt='project img' className='w-100'/> </a>
 
 </div>
     </div>
@@ -327,7 +328,7 @@ export default function Projects() {
     <p>Ability to add products & product detalis & count also update or delete it </p>
     <p className='mb-3'>HTML , CSS ,JS,Animsition jquery plugin</p>
     </Fade>
-    <a className='text-decoration-none' href=' https://noha-elsayed.github.io/Crud-System-JS/'>Visit Project</a>
+     <a target="_blank" rel="noreferrer"   className='text-decoration-none' href=' https://noha-elsayed.github.io/Crud-System-JS/'>Visit Project</a>
 
   </div>
   </div>
@@ -339,7 +340,7 @@ export default function Projects() {
                      <div className={`${styles.info_card} py-3  rounded-3  mx-auto gy-3 gx-5  row md:flex-wrap  `}>
 <div className=' col-12 col-md-6  d-flex justify-content-center'>
 <div>
-<a href='https://noha-elsayed.github.io/Party-web-page-JS/'  className='p-0'> <img src={partyBg} alt='project img' className='w-100'/> </a>
+ <a target="_blank" rel="noreferrer"   href='https://noha-elsayed.github.io/Party-web-page-JS/'  className='p-0'> <img src={partyBg} alt='project img' className='w-100'/> </a>
 
 </div>
     </div>
@@ -352,7 +353,7 @@ export default function Projects() {
     <p>Counting Down to the Party Date</p>
     <p className='mb-3'>usingHTML,CSS,JS,jQuery</p>
     </Fade>
-    <a className='text-decoration-none' href='https://noha-elsayed.github.io/Party-web-page-JS/'>Visit Project</a>
+     <a target="_blank" rel="noreferrer"   className='text-decoration-none' href='https://noha-elsayed.github.io/Party-web-page-JS/'>Visit Project</a>
 
   </div>
   </div>
@@ -367,7 +368,7 @@ export default function Projects() {
 
 <div className=' col-12 col-md-6  d-flex justify-content-center'>
 <div>
-<a href='https://noha-elsayed.github.io/Protfolio-web-page2/'  className='p-0'> <img src={simonBg} alt='project img' className='w-100'/> </a>
+ <a target="_blank" rel="noreferrer"   href='https://noha-elsayed.github.io/Protfolio-web-page2/'  className='p-0'> <img src={simonBg} alt='project img' className='w-100'/> </a>
 
 </div>
     </div>
@@ -379,7 +380,7 @@ export default function Projects() {
     <Fade cascade damping={0.1} delay={500}>
     <p className='mb-3'>HTML,CSS,Bootstrap,Typed js,Aos library</p>
     </Fade>
-    <a className='text-decoration-none' href='https://noha-elsayed.github.io/Protfolio-web-page2/'>Visit Project</a>
+     <a target="_blank" rel="noreferrer"   className='text-decoration-none' href='https://noha-elsayed.github.io/Protfolio-web-page2/'>Visit Project</a>
 
   </div>
    </div>
@@ -392,7 +393,7 @@ export default function Projects() {
 <div className={`${styles.info_card} py-3  rounded-3   mx-auto gy-3 gx-5  row flex-wrap  `}>
 <div className=' col-12 col-md-6  d-flex justify-content-center'>
 <div>
-<a href='https://noha-elsayed.github.io/Profile-WebPage/'  className='p-0'> <img src={fokirBg} alt='project img' className='w-100'/> </a>
+ <a target="_blank" rel="noreferrer"   href='https://noha-elsayed.github.io/Profile-WebPage/'  className='p-0'> <img src={fokirBg} alt='project img' className='w-100'/> </a>
 
 </div>
     </div>
@@ -404,7 +405,7 @@ export default function Projects() {
     <Fade cascade damping={0.1} delay={500}>
     <p className='mb-3'>HTML,CSS,Bootstrap,Aos library</p>
     </Fade>
-    <a className='text-decoration-none' href='https://noha-elsayed.github.io/Profile-WebPage/'>Visit Project</a>
+     <a target="_blank" rel="noreferrer"   className='text-decoration-none' href='https://noha-elsayed.github.io/Profile-WebPage/'>Visit Project</a>
 
   </div>
    </div>
@@ -416,7 +417,7 @@ export default function Projects() {
   <div className={`${styles.info_card} py-3  rounded-3   mx-auto gy-3 gx-5  row flex-wrap  `}>
 <div className=' col-12 col-md-6  d-flex justify-content-center'>
 <div>
-<a href='https://construction-web-page.vercel.app/'  className='p-0'> <img src={constructBg} alt='project img' className='w-100'/> </a>
+ <a target="_blank" rel="noreferrer"   href='https://construction-web-page.vercel.app/'  className='p-0'> <img src={constructBg} alt='project img' className='w-100'/> </a>
 
 </div>
     </div>
@@ -428,7 +429,7 @@ export default function Projects() {
     <Fade cascade damping={0.1} delay={500}>
     <p className='mb-3'>HTML,CSS,JQuery,Bootstrap</p>
     </Fade>
-    <a className='text-decoration-none' href='https://construction-web-page.vercel.app/'>Visit Project</a>
+     <a target="_blank" rel="noreferrer"   className='text-decoration-none' href='https://construction-web-page.vercel.app/'>Visit Project</a>
 
   </div>
    </div>
@@ -441,7 +442,7 @@ export default function Projects() {
             <div className={`${styles.info_card} py-3  rounded-3  mx-auto gy-3 gx-5  row md:flex-wrap  `}>
 <div className=' col-12 col-md-6  d-flex justify-content-center'>
 <div>
-<a href='https://noha-elsayed.github.io/Bakery-templete/'  className='p-0'> <img src={bakeryBg} alt='project img' className='w-100'/> </a>
+ <a target="_blank" rel="noreferrer"   href='https://noha-elsayed.github.io/Bakery-templete/'  className='p-0'> <img src={bakeryBg} alt='project img' className='w-100'/> </a>
 
 </div>
     </div>
@@ -453,7 +454,7 @@ export default function Projects() {
     <Fade cascade damping={0.1} delay={500}>
     <p className='mb-3'>HTML,CSS,JQuery,Bootstrap</p>
     </Fade>
-    <a className='text-decoration-none' href='https://noha-elsayed.github.io/Bakery-templete/'>Visit Project</a>
+     <a target="_blank" rel="noreferrer"   className='text-decoration-none' href='https://noha-elsayed.github.io/Bakery-templete/'>Visit Project</a>
 
   </div>
    </div>
@@ -466,7 +467,7 @@ export default function Projects() {
             <div className={`${styles.info_card} py-3  rounded-3  mx-auto  gx-5  row md:flex-wrap`}>
 <div className=' col-12 col-md-6  d-flex justify-content-center'>
 <div>
-<a href='https://noha-elsayed.github.io/Convertor-JS/'  className='p-0'> <img src={convertorBg} alt='project img' className='w-100'/> </a>
+ <a target="_blank" rel="noreferrer"   href='https://noha-elsayed.github.io/Convertor-JS/'  className='p-0'> <img src={convertorBg} alt='project img' className='w-100'/> </a>
 
 </div>
     </div>
@@ -478,7 +479,7 @@ export default function Projects() {
     <Fade cascade damping={0.1} delay={500}>
     <p className='mb-3'>HTML,CSS,JQuery,Bootstrap</p>
     </Fade>
-    <a className='text-decoration-none' href='https://noha-elsayed.github.io/Convertor-JS/'>Visit Project</a>
+     <a target="_blank" rel="noreferrer"   className='text-decoration-none' href='https://noha-elsayed.github.io/Convertor-JS/'>Visit Project</a>
 
   </div>
    </div>
