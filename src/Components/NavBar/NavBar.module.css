@@ -37,11 +37,11 @@
 
 @media screen and (max-width:500px){
     .navBrand_react{
-     font-size: 1.2rem !important;
+     font-size: 0.9rem !important;
      padding-left: 0.5rem;
     }  
     .navBrand_react small{
-     font-size: 0.9rem !important;
+     font-size: 0.8rem !important;
     }
 } 
 .navLink_svg >svg{

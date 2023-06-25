@@ -13,7 +13,7 @@ export default function NavBar({switchDarkness ,switchMood}) {
     <Fragment>
       <nav className={`${styles.navbar_react}  navbar navbar-expand-md  position-fixed top-0 start-0 end-0 px-md-5 `} data-bs-theme={switchMood}>
         <div className="container-fluid p-0 position-relative">
-          <span className={`${styles.navBrand_react} navbar-brand fs-2 me-0 fw-bolder ps-2 `}> Noha Elsayed
+          <span className={`${styles.navBrand_react} navbar-brand fs-2 me-0 fw-bolder ps-2 `}> Noha Abdelkader
             <small className="fs-4 fw-light">/ FRONT-END DEVELOPER</small>
           </span>
 
